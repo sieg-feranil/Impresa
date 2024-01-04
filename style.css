@@ -4,6 +4,39 @@
   padding: 0;
 }
 
+header .navbar li a{
+    color: rgb(255, 166, 0);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar li {
+    margin-right: 3rem;
+}
+
+.navbar{
+    height: 90px;
+}
+
+
+.logo{
+    
+    height:70px;
+    width: 70px;
+    border-radius: 35px;
+    background-image:url("img/logocantiere.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:18px
+}
+
+.accordion{
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 2rem;
+}
+
 section.hero {
   background-image: url("https://peakbusinessvaluation.com/wp-content/uploads/valuing-a-construction-company.jpg");
   background-size: cover;
