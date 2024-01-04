@@ -1,38 +1,85 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-header .navbar li a{
-    color: rgb(255, 166, 0);
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.navbar li {
-    margin-right: 3rem;
-}
-
-.navbar{
-    height: 90px;
-}
-
-
-.logo{
-    
-    height:70px;
-    width: 70px;
-    border-radius: 35px;
-    background-image:url("img/logocantiere.jpeg") ;
+  }
+  
+  body{
+      background-color: #292929;
+  }
+  
+  header .navbar li a{
+      color: rgb(255, 166, 0);
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .navbar li {
+      margin-right: 3rem;
+  }
+  
+  .navbar{
+      height: 90px;
+      z-index: 2;
+      width: 100%;
+  }
+  
+  
+  .logo{
+      
+      height:70px;
+      width: 70px;
+      border-radius: 35px;
+      background-image:url("img/logocantiere.jpeg") ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin:18px
+  }
+  
+  .accordion{
+      width: 60%;
+      margin-left: 30%;
+      margin-top: 2rem;
+  }
+  
+  section.hero {
+    background-image: url("https://peakbusinessvaluation.com/wp-content/uploads/valuing-a-construction-company.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    margin:18px
-}
-
-.accordion{
-    width: 60%;
-    margin-left: 30%;
-    margin-top: 2rem;
-}
+    height: 100vh;
+    display: flex;
+    padding-top: 95px;
+  }
+  
+  div.text-area {
+      width: 40%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .text-area h4{
+      font-size: 50px;
+      color: antiquewhite;
+  }
+  
+  .text-area span{
+      margin-top: 55px;
+      font-size: 30px;
+      color: antiquewhite;
+  }
+  
+  #nyan-placeholder{
+      height: 200px;
+      opacity: 30%;
+      margin: 50px 150px;
+  }
+  
+  section.sponsors {
+      height: 100vh;
+      padding: 100px;
+  }
+  
+  
+  
+  
