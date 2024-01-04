@@ -8,20 +8,18 @@ section.hero {
   background-image: url("https://peakbusinessvaluation.com/wp-content/uploads/valuing-a-construction-company.jpg");
   background-size: cover;
   height: 100vh;
-}
-
-div{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  padding-top: 95px;
 }
 
 div.text-area {
     width: 40%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-area h4{
-    margin-top: 95px;
     font-size: 50px;
     color: antiquewhite;
 }
@@ -31,4 +29,17 @@ div.text-area {
     font-size: 30px;
     color: antiquewhite;
 }
+
+#nyan-placeholder{
+    height: 200px;
+    opacity: 30%;
+    margin: 50px 150px;
+}
+
+section.sponsors {
+    height: 100vh;
+    padding: 100px;
+}
+
+
 
