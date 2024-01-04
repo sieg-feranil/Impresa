@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+.about-us{
+    height:100vh ;
+    /* border: 1px solid rgb(0, 255, 191); */
+}
+
 header .navbar li a{
-    color: rgb(255, 166, 0);
+    color: #ffa31a;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     
@@ -15,8 +20,7 @@ header .navbar li a{
 
 header .navbar li a:hover{
     color: white;
-    transform: rotate(360deg);
-    transition:  1.5s;
+    text-decoration: underline;
     
 }
 
@@ -40,8 +44,66 @@ header .navbar li a:hover{
     margin:18px
 }
 
-.accordion{
-    width: 60%;
-    margin-left: 30%;
-    margin-top: 2rem;
+
+
+.corpo{
+    /* border: 1px solid violet; */
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    
 }
+
+.accordion{
+    /* border: 1px solid red; */
+    width: 60%;
+    justify-content: end;
+    
+    
+    
+}
+
+
+
+ .corpo .immaginecorpo{
+    width: 40%;
+    height: 315px;
+    background-image: url("img/cantiere.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    border-radius: 10%;
+    margin-left: 1rem;
+
+}
+
+
+.corpo2{
+   /* border: 1px solid red; */
+   display: flex;
+   margin: 1rem auto;
+   
+
+   
+   
+  
+    
+}
+
+ .card{
+    margin: auto;
+    
+}
+
+.card img{
+    width: 38%;
+    margin: auto;
+}
+
+.card-body a{
+background-color: #ffa31a;
+color: black;
+border: 2px solid;
+}
+
