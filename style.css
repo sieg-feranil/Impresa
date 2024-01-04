@@ -110,7 +110,7 @@ header .navbar li a:hover {
 }
 
 .corpo {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   width: 100%;
   margin: auto;
   margin-top: 1rem;
