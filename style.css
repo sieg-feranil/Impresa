@@ -1,0 +1,64 @@
+*{
+    font-family:'Franklin Gothic Medium';
+    padding:0;
+    margin:0;
+}
+.main-footer{
+    background: linear-gradient(black, #292929);
+    color: white;
+
+    display:grid;
+    /*grid-template-columns: repeat(2, 1fr);  Creates three equal-width columns 
+    grid-template-rows: 100px;  Sets the height of the rows to 100px */
+    
+    grid: 40px 200px / 1fr 1fr;
+
+    padding: 20px;
+}
+.main-footer-header{
+    padding:0;
+    margin:10px 0px 0px 10px;
+    color: #FFa31a;
+    width: 100%;
+}
+h5{
+    padding:0;
+    margin:0;
+    margin-left: 6px;
+}
+
+.social-links{
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 2; grid-row-end: 3;
+    margin:0px 0px 15px 0px;
+    padding:0px;
+    list-style: none;
+    width: 100%;
+}
+.social-links li{
+    align-self: center;
+    margin: 10px 0px 0px 15px;
+    padding: 0px;
+}
+
+.fb,
+.insta,
+.twitter{
+    width: 40px;
+    height: 40px;
+    margin: 0px 3px 0px 0px;
+    padding: 0;
+}
+
+.main-footer p{
+    color: #808080;
+}
+
+.contacts{
+    padding:0; margin:0;
+    width: 100%; height: 100%;
+    justify-self:start;
+    align-self: start;
+    grid-column-start: 2; grid-column-end: 3;
+    grid-row-start: 2; grid-row-start: 3; 
+}
