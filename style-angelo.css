@@ -1,0 +1,44 @@
+
+/*da qualche parte nel div con la classe text orange verrà applicata la modifica del colore in questo caso arancione */
+div.text-orange{
+
+    color:#ffffff;
+
+}
+/*stessa concetto di prima ma cambio l'elemento a*/
+a.orange-btn{
+
+    background-color: #ffa31a;
+    color: #000;
+
+}
+/*sull'elemento a vado a interagire con lo stato hover e quando sopra con il mouse cambio bg color*/
+a.orange-btn:hover{
+
+    background-color: grey;
+
+
+}
+p.card-text{
+
+    height: 200px;
+
+}
+div.centralizzare{
+
+    margin: auto;
+    justify-content: center; 
+      
+
+}
+section.events{
+
+    height: 100vh;
+    /* margin-top: 25vh; */
+}
+
+/* h5.card-title{
+
+    height:40px;
+
+} */
